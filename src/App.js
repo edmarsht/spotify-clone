@@ -22,7 +22,7 @@ function App() {
     <div className="app">
       {
         token ? (
-          <h1>Helo guys</h1>
+          <h1>Hey guys you're connected to spotify</h1>
         ) : (
           <Login />
         )
