@@ -3,11 +3,14 @@ import './App.css';
 import Login from "./Login";
 import { getTokenFromUrl } from "./spotify";
 import SpotifyWebApi from "spotify-web-api-js";
+import Player from "./Player";
+import { useDataLayerValue } from "./DataLayer";
 
 const spotify = new SpotifyWebApi();
 
 function App() {
   const [token, setToken] = useState(null);
+  const [{ user }, dispatch] = useDataLayerValue();
 
   useEffect(() => {
     const hash = getTokenFromUrl();
@@ -20,7 +23,12 @@ function App() {
       spotify.setAccessToken(_token);
 
       spotify.getMe().then(user => {
-        console.log('whoa', user);
+
+        dispatch({
+          type: 'SET_USER', 
+          user: user
+        });
+
       })
     }
 
@@ -28,14 +36,16 @@ function App() {
     console.log('i have the token', token);
   }, []);
 
+  console.log('whoa', user);
+
+
   return (
     <div className="app">
       {
-        token ? (
-          <h1>Hey guys you're connected to spotify</h1>
-        ) : (
+        token ? 
+        < Player />
+         :
           <Login />
-        )
       }
     </div>
   );
