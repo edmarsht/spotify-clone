@@ -14,10 +14,8 @@ I created a Spotify clone with React Js and the Spotify Api !
 
 <br>
 
-<h3> ⚠️ Important ⚠️  </h3>
-First you need to writte your clientId in spotify.js line 5. <br>
-const clientId = "";<br>
-You can find your clientId in your Dashboard on <a href="https://developer.spotify.com/">Spotify for developers.</a> 
+<h3> ⚠️ Informations ⚠️  </h3>
+You can find Documentation on <a href="https://developer.spotify.com/">Spotify for developers.</a> 
 
 <br>
 <br>
