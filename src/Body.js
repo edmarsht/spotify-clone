@@ -22,7 +22,7 @@ function Body( { spotify }) {
                     <strong>PLAYLIST</strong>
                     <h2>Discover Weekly</h2>
                     <p>Your weekly mixtape of fresh music. Enjoy and deep cuts picked for you. Updates every Monday.</p>
-                    {/* <p>{discover_weekly?.description}</p> */}
+                    {<p>{discover_weekly?.description}</p>}
                 </div>
             </div>
 
