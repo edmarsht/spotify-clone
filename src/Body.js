@@ -1,10 +1,25 @@
+import { Description } from '@material-ui/icons';
 import React from 'react';
 import "./Body.css";
+import Header from "./Header";
+import { useDataLayerValue } from './DataLayer';
 
-function Body() {
+function Body( { spotify }) {
+    const [{ discover_weekly }, dispatch] = useDataLayerValue();
+
     return (
         <div className="body">
-            <h1>I am the body</h1>
+            <Header spotify={spotify}/>
+
+            <div className="body__info">
+                <img src={discover_weekly?.images[0].url} alt="Discover Weekly"/>
+                <div className="body__infoText">
+                    <strong>PLAYLIST</strong>
+                    <h2>Discover Weekly</h2>
+                    <p>Your weekly mixtape of fresh music. Enjoy and deep cuts picked for you. Updates every Monday.</p>
+                    {/* <p>{discover_weekly?.description}</p> */}
+                </div>
+            </div>
         </div>
     )
 }
