@@ -84,6 +84,8 @@ React js
 
 
 <video width="320" height="240" controls>
-  <source src="spotify.mov" type="video/mov">
+  <source src="spotify.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
+
+<img src="login.png" alt="login">
