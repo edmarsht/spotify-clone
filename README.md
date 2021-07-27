@@ -1,14 +1,24 @@
-# Getting Started with Create React App
+<h1> Spotify Clone 🎶 </h1>
+I created a Spotify Clone with REACT JS and thanks to the SPOTIFY API ! 
+
+<h3>The different concept i used for the app  🧠</h3>
+<ul>
+  <li>React JS </li>
+  <li>Spotify Api</li>
+  <li>Context API (REDUX)</li>
+  <li>Material UI</li>
+  <li>Flexbox (css)</li>
+</ul>
+
+## How to launch ? 🚀
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+<h3>Available Scripts </h3>
 
 In the project directory, you can run:
 
 ### `yarn start`
-or 
-### `npm start`
 
 
 Runs the app in the development mode.\
@@ -17,13 +27,12 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 First you need to replace your client id in spotify.js
 
-Context API (REDUX)
-Material UI 
-Flexbox (css)
-Spotify Api 
-React js
 
-<h1>Created a Spotify Clone with REACT JS </h1>
+ 
+
+ 
+
+
 
 
 <h1>Login page </h1>
