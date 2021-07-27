@@ -74,3 +74,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 First you need to replace your client id in spotify.js
 
+Context API (REDUX)
+Material UI 
+Flexbox (css)
+Spotify Api 
+React js
+
+Build a Spotify Clone with REACT JS

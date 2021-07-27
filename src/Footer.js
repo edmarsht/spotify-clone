@@ -14,12 +14,12 @@ function Footer() {
         <div className="footer">
             <div className="footer__left">
                 <img className="footer__albumLogo" 
-                    src="https://images-na.ssl-images-amazon.com/images/I/71uJxCcO9cL._SL1500_.jpg" 
+                    src="https://images.genius.com/aebf09c09c1cf8929fc31e37c30d7bd5.600x600x1.jpg" 
                     alt="">
                 </img>
                 <div className="footer__songInfo">
-                    <h4>yeah</h4>
-                    <p>Usher</p>
+                    <h4>Industry Baby</h4>
+                    <p>Lil Nas X</p>
                 </div>
             </div>
 
